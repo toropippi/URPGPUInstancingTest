@@ -24,7 +24,7 @@ namespace Sandbox
 
         ComputeBuffer particleBuffer;
         Bounds bounds;
-        const int instanceCount = 100;
+        const int instanceCount = 10000;
         ArgsBuffer argsBuffer;
         void Start()
         {
