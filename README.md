@@ -1,4 +1,4 @@
-# UintyのURPでGPUInstancing  
+# UnityのURPでGPUInstancing  
  1 : C#側から最初にGPUメモリ(Compute Buffer)に座標を格納  
  2 : Shader側でGPUメモリから座標を取得  
  3 : Graphics.DrawMeshInstancedIndirectでcastShadowのPassとDepthNormalsのPass込みでレンダリング→影付き&SSAO適応の完成
