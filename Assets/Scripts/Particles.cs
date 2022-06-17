@@ -1,5 +1,8 @@
 using UnityEngine;
 
+//ref
+//https://notargs.hateblo.jp/entry/lwrp_particle
+
 namespace Sandbox
 {
 
@@ -24,7 +27,7 @@ namespace Sandbox
 
         ComputeBuffer particleBuffer;
         Bounds bounds;
-        const int instanceCount = 400;
+        const int instanceCount = 700;
         ArgsBuffer argsBuffer;
         void Start()
         {

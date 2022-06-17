@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MyMaterial
+  m_Name: MySahderMaterial
   m_Shader: {fileID: 4800000, guid: 58fdbde304ffcb44096b2f0c92be3b02, type: 3}
   m_ValidKeywords:
   - _ALPHATEST_ON

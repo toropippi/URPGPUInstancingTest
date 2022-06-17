@@ -1,5 +1,8 @@
 using UnityEngine;
 
+//ref
+//https://notargs.hateblo.jp/entry/lwrp_particle
+
 namespace Sandbox
 {
     public class ArgsBuffer
