@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1871,7 +1871,7 @@ GameObject:
   - component: {fileID: 1155500118}
   - component: {fileID: 1155500119}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: GameObject_GPUInstancing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1904,7 +1904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f0e57462f5a1f84090a545010ccff0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
   material: {fileID: 2100000, guid: 92c14f59a50e19445aae019ec6cafea5, type: 2}
 --- !u!1 &1181593991
 GameObject:
@@ -2789,7 +2789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1557155210}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: "\u624B\u52D5\u3067\u9069\u5F53\u306B\u914D\u7F6E\u3057\u305FMesh&\u6A19\u6E96Lit\u30B7\u30A7\u30FC\u30C0\u30FC"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
