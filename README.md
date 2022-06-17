@@ -1,7 +1,7 @@
 # UintyのURPでGPUInstancing  
  1 : C#側から最初にGPUメモリ(Compute Buffer)に座標を格納  
- 2 : ShaderでGPUメモリから座標を取得  
- 3 : 影付き(castShadow)でレンダリング&SSAO適応
+ 2 : Shader側でGPUメモリから座標を取得  
+ 3 : Graphics.DrawMeshInstancedIndirectでcastShadowのPassとDepthNormalsのPass込みでレンダリング→影付き&SSAO適応の完成
  
 ## やっていること
  https://notargs.hateblo.jp/entry/lwrp_particle を参考にURPの標準Lit Shaderを一部書き換え  
